@@ -5,5 +5,11 @@ dubbo:
     address: zookeeper://127.0.0.1:2181
   scan:
     base-package: indi.my.producer.service.impl
+  protocol:
+    dubbo:
+      enable: true
+      name: dubbo 
+      prot: 20880
+
 server:
   port: 9001
