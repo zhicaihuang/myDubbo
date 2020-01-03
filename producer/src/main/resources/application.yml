@@ -1,0 +1,9 @@
+dubbo:
+  application:
+    name: producer-user
+  registry:
+    address: zookeeper://127.0.0.1:2181
+  scan:
+    base-package: indi.my.producer.service.impl
+server:
+  port: 9001
